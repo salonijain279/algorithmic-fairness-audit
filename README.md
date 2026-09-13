@@ -119,12 +119,3 @@ SQL analysis: `duckdb -c ".read bias_analysis.sql"`.
   different mitigation library entirely, would trade off differently.
 - This is a technical audit, not a legal or policy determination — no claim is
   made here about the tool's compliance with any specific jurisdiction's law.
-
-## Résumé bullet
-
-> Algorithmic Fairness Audit: Recidivism Risk Scoring | Python, SQL, scikit-learn, Fairlearn, Streamlit
-> Built an end-to-end algorithmic fairness audit on a criminal-justice risk-scoring
-> dataset, quantifying statistically significant error-rate disparities across
-> demographic groups (z=11.4, p<0.0001), and applying Fairlearn post-processing to
-> cut the equalized-odds gap by 72%, packaged as an interactive Streamlit audit
-> console.
