@@ -1,0 +1,29 @@
+{
+  "n_total": 5278,
+  "n_audited_two_race": 5278,
+  "fpr_significance_test": {
+    "p1": 0.4233817701453104,
+    "p2": 0.22014051522248243,
+    "z": 11.383780251009789,
+    "p_value": 0.0,
+    "group_a": "African-American",
+    "group_b": "Caucasian",
+    "fpr_a": 0.4233817701453104,
+    "fpr_b": 0.22014051522248243
+  },
+  "equalized_odds_gap_raw_score": {
+    "fpr_gap": 0.203241254922828,
+    "tpr_gap": 0.2115821530429738,
+    "equalized_odds_gap": 0.2115821530429738
+  },
+  "equalized_odds_gap_before_mitigation": {
+    "fpr_gap": 0.1345006514732439,
+    "tpr_gap": 0.28379647622749055,
+    "equalized_odds_gap": 0.28379647622749055
+  },
+  "equalized_odds_gap_after_mitigation": {
+    "fpr_gap": 0.0394141312547146,
+    "tpr_gap": 0.07837802824200024,
+    "equalized_odds_gap": 0.07837802824200024
+  }
+}
